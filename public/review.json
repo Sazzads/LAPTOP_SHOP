@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Bill Gates",
+        "img": "./images/bill.png",
+        "description": "A laptop won’t revolutionize the minutiae of your life the way a smartphone can. You can’t easily whip one out to kill time in the elevator, capture a breathtaking sunset, or pay for a cup of coffee.But in the years since smartphones took on all these jobs. "
+    },
+    {
+        "id": 2,
+        "name": "Stave Jobs",
+        "img": "./images/stive.png",
+        "description": " As a tech junkie, my relationship with technology goes back to my childhood years. Getting my first Intel Pentium 4 PC was the start of journey that would eventually bring me to Notebookcheck"
+    },
+    {
+        "id": 3,
+        "name": "mark zuckerberg",
+        "img": "./images/juckerburg.png",
+        "description": " first stepped into the wondrous IT&C world when I was around seven years old. I was instantly fascinated by computerized graphics, whether they were from games or 3D applications like 3D Max. I'm also an avid reader of science fiction"
+    },
+    {
+        "id": 4,
+        "name": "barak obama",
+        "img": "./images/obama.png",
+        "description": "astrophysics aficionado, and a crypto geek. I started writing PC-related articles for Softpedia and a few blogs back in 2006. I joined the Notebookcheck team in the summer of 2017 and am currently a senior tech writer mostly covering processor, GPU, and laptop news."
+    },
+    {
+        "id": 5,
+        "name": "Donald Trump",
+        "img": "./images/trump.png",
+        "description": "Pretty nonsense comparison. They should also include computation per watt. Then ryzen is still the better option."
+    },
+    {
+        "id": 6,
+        "name": "Emma watson",
+        "img": "./images/04.png",
+        "description": "What is the point of a small benchmark win, if after few seconds the laptop starts thermal throtlling or it runs out of battery much faster??"
+    }
+]
