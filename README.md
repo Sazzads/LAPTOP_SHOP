@@ -1,4 +1,4 @@
-<h1>Project name: LAPTOP SHOP</h1>
+<h1 >Project Name: LAPTOP SHOP</h1>
 
 <h3>Live site Link:<a href="http://"></a>  </h3>
 <ul>
@@ -12,6 +12,6 @@ Review page added
 Use chart
 </li>
 <li>
-blogs page addedf
+blogs page added
 </li>
 </ul>

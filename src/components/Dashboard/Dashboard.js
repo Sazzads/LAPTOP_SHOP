@@ -48,7 +48,7 @@ const Dashboard = () => {
 
     return (
         <section className=" p-6">
-            <h1 className='text-center text-6xl font-bold  pb-12'>CHARTS</h1>
+            <h1 className='text-center text-6xl font-bold  pb-12 text-orange-400'>CHARTS</h1>
             <div className='md:flex md:flex-wrap md:justify-around items-center md:h-screen'>
 
                 <div style={shadow} className='pr-2 mb-4 bg-stone-100'>
@@ -61,6 +61,8 @@ const Dashboard = () => {
                         <YAxis ></YAxis>
                         <Tooltip></Tooltip>
                     </LineChart>
+                    <h4 className='text-center p-4'>chart: 1</h4>
+
                 </div>
 
                 <div style={shadow} className='bg-stone-100'>
@@ -85,6 +87,8 @@ const Dashboard = () => {
                         <Line type="monotone" dataKey="investment" stroke="#ffbf00" />
                         <Scatter dataKey="month" fill="	#ff00ff" />
                     </ComposedChart>
+                    <h4 className='text-center p-4'>chart: 2</h4>
+
                 </div>
             </div>
 
