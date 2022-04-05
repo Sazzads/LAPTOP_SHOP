@@ -16,12 +16,12 @@ const Home = () => {
             <section className="flex justify-center items-center bg-stone-600 h-screen p-4  md:pt-0 ">
                 <div className="flex flex-wrap justify-evenly items-center ">
                     <div className="md:w-1/2 text-white px-4 md:order-1 order-2">
-                        <h3 className="md:text-4xl text-3xl font-bold">NEW</h3>
+                        <h3 className="md:text-4xl text-3xl font-bold text-orange-500">NEW</h3>
                         <h1 className="md:text-7xl text-5xl font-bold my-4">Meet Chromebook</h1>
                         <p className=" pr-8 text-justify">
                             Want a computer that is smart, secure, and ready when you are? It's time for an HP Chromebook. Designed to run fast and stay fast, HP Chromebooks come with the best of Google built-in.
                         </p>
-                        <button className="my-4 py-3 px-8 font-medium text-xl rounded transition duration-500 ease-in-out bg-black hover:to-white hover:text-red-500">
+                        <button className="my-4 py-2 px-7 font-medium text-xl rounded transition duration-500 ease-in-out bg-black hover:to-white hover:text-red-500">
                             CLICK
                         </button>
                     </div>
@@ -40,16 +40,17 @@ const Home = () => {
                         return (
                             <div
                                 key={id}
-                                className=" w-72 h-[320px] pt-3 pl-4 shadow-2xl rounded text-white border"
+                                className=" w-73 h-[330px] pt-3 pl-4 shadow-2xl rounded text-white border-2"
                             >
                                 <div className="flex items-center mb-5">
                                     <img className="w-14 h-14 mr-3" src={img} alt="" />
                                     <h1 className="text-2xl font-bold mb-3">{name}</h1>
                                 </div>
-                                <p>Ratings:  <FontAwesomeIcon icon={faStar} />
-                                    <FontAwesomeIcon icon={faStar} />
-                                    <FontAwesomeIcon icon={faStar} />
-                                    <FontAwesomeIcon icon={faStarHalfStroke} />
+                                <p>Ratings:
+                                    <FontAwesomeIcon className='text-cyan-600' icon={faStar} />
+                                    <FontAwesomeIcon className='text-cyan-600' icon={faStar} />
+                                    <FontAwesomeIcon className='text-cyan-600' icon={faStar} />
+                                    <FontAwesomeIcon className='text-cyan-400' icon={faStarHalfStroke} />
                                     <FontAwesomeIcon icon={faStarHalfStroke} />
                                 </p>
                                 <p>{description}</p>

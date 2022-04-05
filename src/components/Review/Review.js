@@ -16,18 +16,18 @@ const Review = () => {
                         return (
                             <div
                                 key={id}
-                                className=" w-72 h-[320px] pt-3 pl-4 shadow-2xl rounded text-white border"
+                                className=" w-73 h-[330px] pt-3 pl-4 shadow-2xl rounded text-white border-2"
                             >
                                 <div className="flex items-center mb-5">
                                     <img className="w-14 h-14 mr-3" src={img} alt="" />
                                     <h1 className="text-2xl font-bold mb-3">{name}</h1>
                                 </div>
-                                <p>Ratings:  <FontAwesomeIcon icon={faStar} />
-                                    <FontAwesomeIcon icon={faStar} />
-                                    <FontAwesomeIcon icon={faStar} />
+                                <p>Ratings:
+                                    <FontAwesomeIcon className='text-cyan-600' icon={faStar} />
+                                    <FontAwesomeIcon className='text-cyan-600' icon={faStar} />
+                                    <FontAwesomeIcon className='text-cyan-600' icon={faStar} />
+                                    <FontAwesomeIcon className='text-cyan-400' icon={faStarHalfStroke} />
                                     <FontAwesomeIcon icon={faStarHalfStroke} />
-                                    <FontAwesomeIcon icon={faStarHalfStroke} />
-
                                 </p>
                                 <p>{description}</p>
                             </div>
