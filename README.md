@@ -1,6 +1,6 @@
 <h1 >Project Name: LAPTOP SHOP</h1>
 
-<h3>Live site Link:<a href="http://"></a>  </h3>
+<h3>Live site Link:<a href="https://zesty-praline-db7347.netlify.app/">https://zesty-praline-db7347.netlify.app/</a>  </h3>
 <ul>
 <li>
 Dashboard added
