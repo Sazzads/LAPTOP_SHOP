@@ -47,7 +47,7 @@ const Dashboard = () => {
     }
 
     return (
-        <section className=" p-6">
+        <section className=" p-6 ">
             <h1 className='text-center text-6xl font-bold  pb-12 text-orange-400'>CHARTS</h1>
             <div className='md:flex md:flex-wrap md:justify-around items-center md:h-screen'>
 
